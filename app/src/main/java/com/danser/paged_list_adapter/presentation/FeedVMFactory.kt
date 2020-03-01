@@ -1,7 +1,7 @@
 package com.danser.paged_list_adapter.presentation
 
 import com.danser.paged_list_adapter.domain.FeedItem
-import com.danser.paged_list_adapter.utils.delegate_adapter.IComparableItem
+import com.danser.paged_delegate_adapter.IComparableItem
 import com.danser.paged_list_adapter.view.adapter.AdvertViewModel
 import com.danser.paged_list_adapter.view.adapter.DividerItem
 import com.danser.paged_list_adapter.view.adapter.OfferViewModel

@@ -1,9 +1,8 @@
-package com.danser.paged_list_adapter.utils.delegate_adapter
+package com.danser.paged_delegate_adapter
 
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-
 
 interface IDelegateAdapter<VH : RecyclerView.ViewHolder, T> {
     fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder

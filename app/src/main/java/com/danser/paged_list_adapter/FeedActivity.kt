@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.danser.paged_list_adapter.presentation.FeedPresentationModel
 import com.danser.paged_list_adapter.presentation.FeedViewModel
-import com.danser.paged_list_adapter.utils.delegate_adapter.PagedDiffAdapter
+import com.danser.paged_delegate_adapter.PagedDiffAdapter
 import com.danser.paged_list_adapter.view.adapter.AdvertAdapter
 import com.danser.paged_list_adapter.view.adapter.DividerAdapter
 import com.danser.paged_list_adapter.view.adapter.OfferAdapter

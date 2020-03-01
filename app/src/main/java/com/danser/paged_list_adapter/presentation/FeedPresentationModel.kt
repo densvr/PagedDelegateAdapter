@@ -6,8 +6,8 @@ import androidx.paging.PagedList
 import com.danser.paged_list_adapter.domain.FeedInteractor
 import com.danser.paged_list_adapter.domain.FeedItem
 import com.danser.paged_list_adapter.repository.MyPositionalDataSource
-import com.danser.paged_list_adapter.utils.delegate_adapter.IComparableItem
-import com.danser.paged_list_adapter.utils.delegate_adapter.MainThreadExecutor
+import com.danser.paged_delegate_adapter.IComparableItem
+import com.danser.paged_delegate_adapter.MainThreadExecutor
 import java.util.concurrent.Executors
 
 class FeedPresentationModel(

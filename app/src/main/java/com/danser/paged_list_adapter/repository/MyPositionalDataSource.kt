@@ -1,7 +1,7 @@
 package com.danser.paged_list_adapter.repository
 
 import androidx.paging.PositionalDataSource
-import com.danser.paged_list_adapter.utils.delegate_adapter.IComparableItem
+import com.danser.paged_delegate_adapter.IComparableItem
 
 internal class MyPositionalDataSource(
     private val itemsProvider: (Int, Int) -> List<IComparableItem>

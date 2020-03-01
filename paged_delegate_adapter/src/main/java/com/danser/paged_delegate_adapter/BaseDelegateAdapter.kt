@@ -1,4 +1,4 @@
-package com.danser.paged_list_adapter.utils.delegate_adapter
+package com.danser.paged_delegate_adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -31,10 +31,7 @@ abstract class BaseDelegateAdapter<VH : BaseViewHolder, T> :
         return holder
     }
 
-    override fun onBindViewHolder(
-        holder: VH,
-        item: Any
-    ) {
+    override fun onBindViewHolder(holder: VH, item: Any) {
         (holder as BaseViewHolder).bind(item)
     }
 }

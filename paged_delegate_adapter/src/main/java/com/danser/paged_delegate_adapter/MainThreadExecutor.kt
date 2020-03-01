@@ -1,4 +1,4 @@
-package com.danser.paged_list_adapter.utils.delegate_adapter
+package com.danser.paged_delegate_adapter
 
 import android.os.Handler
 import android.os.Looper

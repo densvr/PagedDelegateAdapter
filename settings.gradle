@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':paged_delegate_adapter'
 rootProject.name='PagedListAdapter'

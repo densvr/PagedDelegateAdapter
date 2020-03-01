@@ -1,4 +1,4 @@
-package com.danser.paged_list_adapter.utils.delegate_adapter
+package com.danser.paged_delegate_adapter
 
 import android.view.View
 import kotlinx.android.extensions.LayoutContainer
@@ -13,11 +13,7 @@ abstract class KDelegateAdapter<T> : BaseDelegateAdapter<KDelegateAdapter.KViewH
         onBind(item, viewHolder)
     }
 
-    override fun createViewHolder(parent: View): KViewHolder =
-        KViewHolder(
-            parent,
-            ::onCreated
-        )
+    override fun createViewHolder(parent: View): KViewHolder = KViewHolder(parent, ::onCreated)
 
     class KViewHolder(
         override val containerView: View,

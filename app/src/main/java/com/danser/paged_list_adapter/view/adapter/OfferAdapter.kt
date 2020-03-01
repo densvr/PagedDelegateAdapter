@@ -2,8 +2,8 @@ package com.danser.paged_list_adapter.view.adapter
 
 import com.danser.paged_list_adapter.R
 import com.danser.paged_list_adapter.domain.FeedItem
-import com.danser.paged_list_adapter.utils.delegate_adapter.IComparableItem
-import com.danser.paged_list_adapter.utils.delegate_adapter.KDelegateAdapter
+import com.danser.paged_delegate_adapter.IComparableItem
+import com.danser.paged_delegate_adapter.KDelegateAdapter
 import kotlinx.android.synthetic.main.item_offer.*
 
 class OfferAdapter(
