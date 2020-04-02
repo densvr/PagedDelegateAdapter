@@ -1,3 +1,4 @@
-code for Middle Android Developer's workshop "Pagination with PagedListAdapter"
+PagedDelegateAdapterLibrary uses DelegateAdapter pattern for RecyclerView via PagedListAdapter from architecture  components
 
-contains PagedDelegate adapter library and app with example of usage the library
+This repo contains PagedDelegate adapter library and app with example of usage the library
+Also there is a sample project for "Pagination with PagedListAdapter" - see https://github.com/densvr/PagedListAdapterSample
